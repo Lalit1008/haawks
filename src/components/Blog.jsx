@@ -14,7 +14,7 @@ function Blog() {
         <p className="text-[#696984] pt-3 text-center pb-14">
           Trusted by 5000+ companies worldwide.
         </p>
-        <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-4">
+        <div className="px-8 grid lg:grid-cols-2 grid-cols-1 lg:gap-4">
           <div className="lg:pt-0 xl:pt-0">
             <div className='overflow-hidden w-4/5 rounded-2xl'>
               <img

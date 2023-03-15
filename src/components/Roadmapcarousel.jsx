@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from 'react-multi-carousel';
+import { Fade } from 'react-reveal';
 import 'react-multi-carousel/lib/styles.css';
 import G5 from '../images/Group 5.svg'
 import G7 from '../images/Group 7.svg'
@@ -19,22 +20,23 @@ const Roadmapcarousel = () => {
         superLargeDesktop: {
           // the naming can be any, depends on you.
           breakpoint: { max: 4000, min: 3000 },
-          items: 5
+          items: 4
         },
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
-          items: 5
+          items: 4
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
-          items: 4
+          items: 3
         },
         mobile: {
           breakpoint: { max: 464, min: 0 },
           items: 1
         }
       };
-  return (<div className='bg-gradient-to-t from-[#000120] to-[#220056] p-10'>
+  return (<div className='bg-gradient-to-t from-[#000120] to-[#220056] py-24 px-48'>
+    <Fade bottom cascade>
     <div className='p-10'>
       {/* <div className="ml-10 w-10 h-1 from-[#7361F2] to-[#BD4FF1] bg-gradient-to-r "></div> */}
       <h1 className="pt-4 pl-10 font-semibold xl:text-5xl lg:text-4xl md:text-4xl text-3xl text-white lg:leading-[2.5rem] 2xl:leading-[3.7rem]" style={{display: "flex", justifyContent: "center"}}>
@@ -62,6 +64,7 @@ const Roadmapcarousel = () => {
             <div><img src={G14} alt="" /></div>
         </Carousel>
     </div>
+    </Fade>
     </div>
   )
 }

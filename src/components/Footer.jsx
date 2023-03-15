@@ -78,7 +78,7 @@ function Footer() {
                   placeholder="Enter your email"
                   className="rounded-full px-4 py-3 bg-[#342F49] w-full input-p"
                 ></input>
-                <button className="text-white md:px-7 md:py-3 px-3 py-3 text-xs md:text-base rounded-full bg-[#6366F1] absolute right-2 submit-btn hover:text-white c-btn tracking-wider overflow-hidden">
+                <button className="text-white md:px-7 md:py-3 px-3 py-3 text-xs md:text-base rounded-full bg-[#6366F1] absolute right-0 submit-btn hover:text-white c-btn tracking-wider overflow-hidden">
                   <span className="absolute inset-0 bg-[#5558ff]"></span>
                   <span className="absolute inset-0 flex justify-center items-center">
                     Submit

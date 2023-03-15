@@ -29,7 +29,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <Missionvision/>
+      <Missionvision />
       <Services />
       {/* <Dex />
       <Marketplace />
@@ -48,10 +48,10 @@ function App() {
       {/* <Horiroadmap /> */}
       <Team />
       {/* <Community /> */}
-      <Blog />
+      {/* <Blog /> */}
       <Ctawimage />
       <Faq />
-      <Footer />
+      <Footer/>
     </div>
   );
 }

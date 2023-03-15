@@ -14,10 +14,7 @@ function Footer() {
           <div>
             <h1 className="text-[#4CC9F0] font-semibold lg:text-2xl">HAAWKS.</h1>
             <p className="text-white xl:w-[559px] pt-4">
-              We ara a lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            We aim to establish a secure space that instills confidence in investing in digital assets. Our platform provides essential resources to users, regardless of their level of expertise in the crypto investment realm
             </p>
             <div className="grid lg:grid-cols-1 xl:grid-cols-2 grid-cols-1 md:grid-cols-1 pt-9">
               <div className="flex gap-2">

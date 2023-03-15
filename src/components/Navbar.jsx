@@ -21,7 +21,7 @@ export default function Navbar() {
                     <a href="tel:+919358593003" target="_blank">+91 987 654 3210</a>
                 </div>
             </div>
-            <div className="top-bar-right">
+            <div className="top-bar-right sm:flex sm:justify-center sm:mx-0">
                 <a href="https://www.facebook.com/MetaBlockTechnologies" target="_blank"><i className="fa-brands fa-facebook"></i></a>
                 <a href="https://instagram.com/metablocktechnologies1" target="_blank"><i className="fa-brands fa-instagram"></i></a>
                 <a href="https://wa.me/+919358593003" target="_blank"><i className="fa-brands fa-whatsapp"></i></a>

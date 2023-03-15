@@ -6,8 +6,8 @@ import Vision from '../images/visiongraphic.png'
 
 const Missionvision = () => {
   return (
-    <div className='p-24 bg-gradient-to-b from-[#000120] to-[#220056]'>
-    <section className="about-us container mx-auto sm:px-4">
+    <div className='md:p-24 bg-gradient-to-b from-[#000120] to-[#220056] sm:px-10'>
+    <section className="about-us container mx-auto sm:px-10">
     <Fade bottom><h2 className='"pt-4 font-bold xl:text-5xl lg:text-4xl md:text-4xl text-3xl lg:leading-[2.5rem] 2xl:leading-[3.7rem]"' style={{display: "flex", justifyContent: "center"}}>
         <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#4361EE] to-[#4CC9F0]">
                 {" "}

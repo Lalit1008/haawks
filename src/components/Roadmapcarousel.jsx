@@ -35,7 +35,7 @@ const Roadmapcarousel = () => {
           items: 1
         }
       };
-  return (<div className='bg-gradient-to-t from-[#000120] to-[#220056] py-24 px-48'>
+  return (<div className='bg-gradient-to-t from-[#000120] to-[#220056] md:py-24 md:px-48 sm:px-2 sm:py-12 sm:overflow-x-hidden'>
     <Fade bottom cascade>
     <div className='p-10'>
       {/* <div className="ml-10 w-10 h-1 from-[#7361F2] to-[#BD4FF1] bg-gradient-to-r "></div> */}

@@ -1,30 +1,31 @@
 import React from 'react'
+import Founderimage from '../images/founder1.jpg'
 import {Fade} from 'react-reveal'
 const Team = () => {
   return (
     <section className='bg-gradient-to-b from-[#000120] to-[#220056]' id='team'>
-  <div className="py-4 px-12 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+  <div className="py-4 px-10 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
       <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
         <Fade bottom>
       <h1 className="pt-4 font-semibold xl:text-5xl lg:text-4xl md:text-4xl text-3xl text-white lg:leading-[2.5rem] 2xl:leading-[3.7rem]">
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#4361EE] to-[#4CC9F0]">
                 {" "}
-                Our Team{" "}
+                Our Founder{" "}
               </span>
             </h1>
-          <p className="font-light text-white lg:mb-16 sm:text-xl dark:text-white">Meet the extremely talented, hard working and intelligent individuals who are an integral part of our team.</p>
+          {/* <p className="font-light text-white lg:mb-16 sm:text-xl dark:text-white">Meet the extremely talented, hard working and intelligent individuals who are an integral part of our team.</p> */}
       </Fade></div> <Fade bottom>
-      <div className="px-6 grid grid-cols-1 gap-8 mb-6 lg:mb-16 md:grid-cols-1">
+      <div className=" grid grid-cols-1 gap-8 mb-6 lg:mb-16 md:grid-cols-1">
           <div className="items-center bg-[#16081c] rounded-lg shadow sm:flex">
               <a href="#">
-                  <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
+                  <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={Founderimage} alt="Bonnie Avatar" />
               </a>
-              <div className="p-5">
+              <div className="w-2/3 p-5">
                   <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      <a href="#">Bonnie Green</a>
+                      <a href="#">Aftab Shaikh</a>
                   </h3>
-                  <span className="text-gray-500 dark:text-gray-400">CEO & Web Developer</span>
-                  <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Bonnie drives the technical strategy of the flowbite platform and brand.</p>
+                  {/* <span className="text-gray-500 dark:text-gray-400">CEO & Web Developer</span> */}
+                  <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">HAAWKS's founder, Mr. Aftab Shaikh, is a trailblazer in the world of digital innovation. His leadership has been instrumental in guiding our venture through development and growth.One of his key traits is the ability to create an interoperability mindset among team members and collaborate with other companies in an effort to foster mutual success.His ability to be adaptive and keep up with the ever changing web3 industry ensures that our platform will always be on the cutting edge of technology.Furthermore, Mr. Aftab is always up for learning given the fast-paced nature of today’s web3 industry; he embraces all new challenges that come along with this ecosystem and never stops striving for excellence.</p>
                   <ul className="flex space-x-4 sm:mt-0">
                       <li>
                           <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -49,7 +50,7 @@ const Team = () => {
                   </ul>
               </div>
           </div> 
-          <div className="items-center bg-[#16081c] rounded-lg shadow sm:flex">
+          {/* <div className="items-center bg-[#16081c] rounded-lg shadow sm:flex">
               <a href="#">
                   <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Avatar" />
               </a>
@@ -150,7 +151,7 @@ const Team = () => {
                       </li>
                   </ul>
               </div>
-          </div>  
+          </div>   */}
       </div> </Fade>
 
   </div>

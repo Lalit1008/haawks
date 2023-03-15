@@ -8,7 +8,7 @@ import Fade from "react-reveal/Fade";
 
 function Footer() {
   return (
-    <div className="bg-gradient-to-t from-[#000120] to-[#220056]  lg:px-28 pt-14 px-10 pb-10">
+    <div className="bg-gradient-to-b from-[#000120] to-[#220056]  lg:px-28 pt-14 px-10 pb-10">
       <Fade bottom cascade>
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-20">
           <div>
@@ -75,7 +75,7 @@ function Footer() {
                   placeholder="Enter your email"
                   className="rounded-full px-4 py-3 bg-[#342F49] w-full input-p"
                 ></input>
-                <button className="text-white md:px-7 md:py-3 px-3 py-3 text-xs md:text-base rounded-full bg-[#6366F1] absolute right-0 submit-btn hover:text-white c-btn tracking-wider overflow-hidden">
+                <button className="text-white md:px-7 md:py-3 px-3 text-xs md:text-base rounded-full bg-[#6366F1] h-full absolute right-0 submit-btn hover:text-white c-btn tracking-wider overflow-hidden">
                   <span className="absolute inset-0 bg-[#5558ff]"></span>
                   <span className="absolute inset-0 flex justify-center items-center">
                     Submit

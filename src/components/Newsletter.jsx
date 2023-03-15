@@ -33,7 +33,7 @@ const Newsletter = () => {
                       {/* <input className="block p-3 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:rounded-none sm:rounded-l-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Enter your name" type="text" id="username" /> */}
                       <input className="block p-3 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-full border border-gray-300 sm:rounded-full  dark:bg-[#342F49] dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Enter your email" type="email" id="email" required="" />
                       <div>
-                      <button type="submit" className="py-3 absolute px-5 bg-[#6366F1] top-0 right-0 text-sm font-medium text-center text-white rounded-lg cursor-pointer bg-primary-700 border-primary-600 sm:rounded-full  hover:bg-primary-800  dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Subscribe</button>
+                      <button type="submit" className="h-full absolute px-5 bg-[#6366F1] top-0 right-0 text-sm font-medium text-center text-white rounded-lg cursor-pointer bg-primary-700 border-primary-600 sm:rounded-full  hover:bg-primary-800  dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Subscribe</button>
                   </div>
                   </div>
                   

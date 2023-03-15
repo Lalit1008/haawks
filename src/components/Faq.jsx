@@ -9,7 +9,7 @@ const Faq = () => {
 
   return (
     <div>
-    <section className="faqs-container bg-gradient-to-b from-[#000120] to-[#220056]">
+    <section className="faqs-container bg-gradient-to-t from-[#000120] to-[#220056]">
     <div className="faqs"><Fade bottom>
     <h1 className="pt-4 pl-12 pb-10 font-semibold xl:text-5xl lg:text-4xl md:text-4xl text-3xl text-white lg:leading-[2.5rem] 2xl:leading-[3.7rem]">
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#4361EE] to-[#4CC9F0]">
@@ -23,14 +23,14 @@ const Faq = () => {
       </p> */}
       
       <div className="accordion">
-        <div className='flex md:flex-row sm:flex-col'>
-          <div className='md:p-10 w-1/2 sm:w-full'>
+        <div className='flex sm:flex-row flex-col'>
+          <div className='md:p-10 sm:w-1/2 w-full'>
             {/* {faqs.map((content)=>(
           <Fade bottom cascade><Questions question={content.question} answer={content.answer} /></Fade>
         ))} */}
         <Frequentquestions />
           </div>
-          <div className='md:p-10 w-1/2 sm:w-full'>
+          <div className='md:p-10 sm:w-1/2 w-full'>
           {/* {faqs.map((content)=>(
           <Fade bottom cascade><Questions question={content.question} answer={content.answer} /></Fade>
         ))} */}

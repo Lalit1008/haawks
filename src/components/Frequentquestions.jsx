@@ -23,7 +23,7 @@ export default function Frequentquestions() {
           {/* <Typography className='mulish' sx={{ width: '33%', flexShrink: 0 }}>
             General settings
           </Typography> */}
-          <Typography className='smallHeading' sx={{fontFamily:"Clash Display"}} >Q: What is blockchain?</Typography>
+          <Typography className='smallHeading' sx={{fontFamily:"Clash Display",fontWeight:"500"}} >Q: What is blockchain?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography className='restContent' sx={{fontSize:"14px", fontFamily:"Cabin"}}>
@@ -39,7 +39,7 @@ export default function Frequentquestions() {
           id="panel2bh-header"
         >
           {/* <Typography className='mulish' sx={{ width: '33%', flexShrink: 0, fontFamily:'Mulish' }}>Users</Typography> */}
-          <Typography className='smallHeading'  sx={{fontFamily:"Clash Display"}}>
+          <Typography className='smallHeading'  sx={{fontFamily:"Clash Display",fontWeight:"500"}}>
           Q: What is a token?
                     </Typography>
         </AccordionSummary>
@@ -55,7 +55,7 @@ export default function Frequentquestions() {
           aria-controls="panel5bh-content"
           id="panel5bh-header"
         >
-          <Typography className='smallHeading' sx={{fontFamily:"Clash Display"}}>
+          <Typography className='smallHeading' sx={{fontFamily:"Clash Display",fontWeight:"500"}}>
           Q: What is DeFi?
           </Typography>
         </AccordionSummary>
@@ -74,7 +74,7 @@ export default function Frequentquestions() {
           {/* <Typography sx={{ width: '33%', flexShrink: 0 }}>
             Advanced settings
           </Typography> */}
-          <Typography className='smallHeading' sx={{fontFamily:"Clash Display"}} >
+          <Typography className='smallHeading' sx={{fontFamily:"Clash Display",fontWeight:"500"}} >
           Q: What are stablecoins?
                     </Typography>
         </AccordionSummary>
@@ -92,7 +92,7 @@ export default function Frequentquestions() {
           id="panel4bh-header"
         >
           {/* <Typography sx={{ width: '33%', flexShrink: 0 }}>Personal data</Typography> */}
-          <Typography className='smallHeading' sx={{fontFamily:"Clash Display"}} >
+          <Typography className='smallHeading' sx={{fontFamily:"Clash Display",fontWeight:"500"}} >
           Q: What is a NFT?
           </Typography>
         </AccordionSummary>

@@ -7,7 +7,7 @@ const Ctawimage = () => {
       <div className="bg-[#12122d] px-10 sm:px-16 overflow-hidden relative">
         <div className="flex-col flex-wrap sm:flex sm:flex-row sm:justify-center sm:items-center">
           <div className=" w-full text-start lg:w-1/2 py-12 md:px-6 lg:py-16 lg:px-8 z-20">
-            <h2 className="smallHeading sm:px-8 text-3xl font-extrabold text-bold text-white sm:text-4xl">
+            <h2 style={{wordSpacing:"2px"}} className="smallHeading tracking-wide sm:px-8 text-3xl font-extrabold text-bold text-white sm:text-4xl">
               <span className="ml-6 block text-gradient-to-br from-[#4361EE] to-[#4CC9F0]">
                 Make the decentralized web
               </span>

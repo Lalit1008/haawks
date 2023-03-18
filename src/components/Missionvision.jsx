@@ -32,7 +32,7 @@ const Missionvision = () => {
         </div>
         
         <div className="lg:w-1/2 pr-4 lg:pl-4 md:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4">
-            <img className='lg:pl-20 py-8' src={Vision} style={{width: '100%'}} alt="Vision Image"/>
+            <img className='lg:w-4/5 lg:pl-20 py-8' src={Vision} style={{width: '100%'}} alt="Vision Image"/>
         </div></Fade>
     </div>
     <br/>

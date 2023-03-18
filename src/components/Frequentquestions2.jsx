@@ -5,7 +5,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import AddIcon from '@mui/icons-material/Add';
 
-export default function Frequentquestions() {
+export default function Frequentquestions2() {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleChange = (panel) => (event, isExpanded) => {
@@ -23,11 +23,11 @@ export default function Frequentquestions() {
           {/* <Typography className='mulish' sx={{ width: '33%', flexShrink: 0 }}>
             General settings
           </Typography> */}
-          <Typography className='smallHeading'>Q: What is blockchain?</Typography>
+          <Typography className='smallHeading'>Q: What is an NFT marketplace?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography className='restContent' sx={{fontSize:"14px", fontFamily:"Cabin"}}>
-          A: Blockchain is a decentralized, digital ledger that records transactions in a way that is secure, transparent, and resistant to modification. It allows parties to conduct transactions without the need for intermediaries, such as banks or governments, by using cryptographic techniques to validate and verify transactions.
+          A: An NFT marketplace is a platform that allows creators to sell their unique digital assets (NFTs) to buyers. NFT marketplaces offer a way for creators to monetize their digital creations, such as artwork, music, or video games, and for buyers to purchase unique, one-of-a-kind items.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -40,12 +40,12 @@ export default function Frequentquestions() {
         >
           {/* <Typography className='mulish' sx={{ width: '33%', flexShrink: 0, fontFamily:'Mulish' }}>Users</Typography> */}
           <Typography className='smallHeading'>
-          Q: What is a token?
+          Q: What is a Layer 1 blockchain?
                     </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography className='restContent'>
-          A: A token is a digital asset that represents a specific value or utility within a blockchain network. Tokens can be used for a variety of purposes, including as a means of exchange, to access a specific service, or to represent ownership or investment in a project.
+          A: A Layer 1 blockchain is a blockchain network that operates at the base layer of a decentralized system, providing the underlying infrastructure and consensus mechanism for the network
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -56,13 +56,13 @@ export default function Frequentquestions() {
           id="panel5bh-header"
         >
           <Typography className='smallHeading'>
-          Q: What is DeFi?
+          Q: How do Layer 1 blockchains differ from Layer 2 solutions?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography className='restContent'>
-          A: DeFi stands for Decentralized Finance, which is a system of financial applications and services built on a decentralized blockchain network. It aims to provide a more open, transparent, and accessible financial system that is not controlled by a single entity.
-          </Typography>
+          A: Layer 1 blockchains operate at the base layer of a decentralized system, while Layer 2 solutions are built on top of Layer 1 blockchains to provide additional scalability, speed, and functionality. Layer 2 solutions include sidechains, state channels, and plasma chains, among others.
+           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion sx={{borderRadius:".25rem", margin:"5px"}} expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
@@ -75,13 +75,13 @@ export default function Frequentquestions() {
             Advanced settings
           </Typography> */}
           <Typography className='smallHeading'>
-          Q: What are stablecoins?
+          Q: What is asset tokenization?
                     </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography className='restContent'>
-          A: Stablecoins are cryptocurrencies that are designed to maintain a stable value relative to a specific asset, such as the US dollar or gold. They are often used to provide stability and reduce volatility in the cryptocurrency market.
-          </Typography>
+          A: Asset tokenization is the process of converting a physical asset, such as real estate, art, or commodities, into a digital token that can be traded on a blockchain network.
+</Typography>
         </AccordionDetails>
       </Accordion>
       
@@ -93,13 +93,13 @@ export default function Frequentquestions() {
         >
           {/* <Typography sx={{ width: '33%', flexShrink: 0 }}>Personal data</Typography> */}
           <Typography className='smallHeading'>
-          Q: What is a NFT?
+          Q: How does asset tokenization work?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography className='restContent'>
-          A: An NFT (Non-Fungible Token) is a unique digital asset that is stored on a blockchain network. Unlike fungible tokens like Bitcoin, each NFT is one-of-a-kind and cannot be replicated or divided.
-          </Typography>
+          A: Asset tokenization involves creating a digital token that represents a specific asset, such as a piece of real estate. This token is then listed on a blockchain-based marketplace, where investors can buy and sell shares in the asset.
+</Typography>
         </AccordionDetails>
       </Accordion>
     </div>

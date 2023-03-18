@@ -4,6 +4,7 @@ import faqs from './dummy';
 import Questions from './Questions';
 import { Fade } from 'react-reveal';
 import Frequentquestions from './Frequentquestions';
+import Frequentquestions2 from './Frequentquestions2';
 
 const Faq = () => {
 
@@ -11,7 +12,7 @@ const Faq = () => {
     <div>
     <section className="faqs-container bg-gradient-to-t from-[#000120] to-[#220056]">
     <div className="faqs"><Fade bottom>
-    <h1 className="pt-4 pl-12 pb-10 font-semibold xl:text-5xl lg:text-4xl md:text-4xl text-3xl text-white lg:leading-[2.5rem] 2xl:leading-[3.7rem]">
+    <h1 className="bigHeading pt-4 pl-12 pb-10 font-semibold xl:text-5xl lg:text-4xl md:text-4xl text-3xl text-white lg:leading-[2.5rem] 2xl:leading-[3.7rem]">
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#4361EE] to-[#4CC9F0]">
                 {" "}
                 FAQs{" "}
@@ -34,7 +35,7 @@ const Faq = () => {
           {/* {faqs.map((content)=>(
           <Fade bottom cascade><Questions question={content.question} answer={content.answer} /></Fade>
         ))} */}
-        <Frequentquestions />
+        <Frequentquestions2 />
           </div>
         </div>
         

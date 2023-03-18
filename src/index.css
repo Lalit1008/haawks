@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body{
-    font-family:'Mulish'
+    font-family:'Cabin', sans-serif;
 }

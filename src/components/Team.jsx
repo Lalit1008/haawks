@@ -4,10 +4,10 @@ import {Fade} from 'react-reveal'
 const Team = () => {
   return (
     <section className='bg-gradient-to-b from-[#000120] to-[#220056] ' id='team'>
-  <div className="py-4 px-10 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+  <div className="py-24 px-10 mx-auto max-w-screen-xl lg:py-16 lg:px-12 ">
       <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
         <Fade bottom>
-      <h1 className="pt-4 font-semibold xl:text-5xl lg:text-4xl md:text-4xl text-3xl text-white lg:leading-[2.5rem] 2xl:leading-[3.7rem]">
+      <h1 className="bigHeading pt-4 font-semibold xl:text-5xl lg:text-4xl md:text-4xl text-3xl text-white lg:leading-[2.5rem] 2xl:leading-[3.7rem]">
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#4361EE] to-[#4CC9F0]">
                 {" "}
                 Our Founder{" "}
@@ -21,7 +21,7 @@ const Team = () => {
                   <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={Founderimage} alt="Bonnie Avatar" />
               </a>
               <div className="md:w-2/3 sm:w-full p-5">
-                  <h3 className="text-xl font-bold tracking-tight text-white">
+                  <h3 className="smallHeading tracking-wider text-xl font-bold tracking-tight text-white">
                       <a href="#">Aftab Shaikh</a>
                   </h3>
                   {/* <span className="text-gray-500 dark:text-gray-400">CEO & Web Developer</span> */}

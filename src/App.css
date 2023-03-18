@@ -6,8 +6,18 @@
 height: 93vh;
 margin-top:-10vh;
 /* position: relative; */
-
 }
+.bigHeading{
+ font-family: 'Syne', sans-serif;
+}
+ .smallHeading{
+  font-family: 'Clash Display', sans-serif;
+ }
+
+ .restContent{
+  font-family: 'Cabin', sans-serif;
+ }
+
 body{
   overflow-x: hidden;
 }
@@ -128,6 +138,9 @@ body{
   color: #fff;
   margin: 0px 12px;
   transition: all 0.5s ease;
+}
+@media query {
+  
 }
 
 .top-bar-right a:hover {

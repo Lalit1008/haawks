@@ -1,6 +1,6 @@
 
 import React from "react";
-import Logo from '../images/Haawks logo.PNG'
+import Logo from '../images/haawks_white.png'
 export default function Navbar() {
     function toogleUl() {
         var navbar = document.querySelector(".navbar")
@@ -44,8 +44,8 @@ export default function Navbar() {
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">DEX</a></li>
                 <li><a href="#">NFT Marketplace</a></li>
+                <li><a href="#">Layer 1</a></li>
                 <li><a href="#">Media</a></li>
-                <li><a href="#">Blog</a></li>
                 {/* <li><a href="#">Exchange<i className="fa-solid fa-caret-down"></i></a>
                     <ul className="secondul">
                         <li><a href="#">Dex Devlopment</a></li>

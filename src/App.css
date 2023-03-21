@@ -390,7 +390,7 @@ height: 8vh;
 }
 
 .navbar-icon {
-  border: 1px solid black;
+  border: 1px solid white;
   display: none;
   padding: 4px;
 }
@@ -504,6 +504,7 @@ height: 8vh;
   }
   .nav_active>ul {
       transform: translateX(0%);
+      background-color: #000120;
       opacity: 1;
       visibility: visible;
       pointer-events: auto;

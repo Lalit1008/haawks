@@ -105,8 +105,8 @@ export default function Navbar() {
 
             </ul>
             <div className="navbar-icon" onClick={toogleUl}>
-                <i className="fa-solid fa-bars"></i>
-                <i className="fa-solid fa-xmark"></i>
+                <i className="fa-solid fa-bars text-white"></i>
+                <i className="fa-solid fa-xmark text-white"></i>
             </div>
         </div>
         

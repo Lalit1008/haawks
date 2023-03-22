@@ -158,7 +158,7 @@
     pointer-events: none;
     left: 0;
   }
-  .customTooltip.active {
+  .customTooltip .active {
     opacity: 1;
     visibility: visible;
   }

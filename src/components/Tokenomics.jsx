@@ -42,7 +42,7 @@ const Tokenomics = () => {
     { title: "Advisory 5%", value: 5.0, color: "#4bffe2", titlep: "Advisory" },
   ];
 
-  const toolTip = useRef();
+  const toolTip = useRef(null);
   return (
     <div className="bg-gradient-to-b from-[#000120] to-[#220056] py-10 px-14 md:pt-24 md:px-28 sm:p-14">
       <Fade left cascade>
@@ -91,8 +91,8 @@ const Tokenomics = () => {
                     dataMock[index].title + " " + dataMock[index].value + " %";
                   e.target.style.opacity = "0.8";
                   e.target.style.cursor = "pointer";
-                  toolTip.style.top = e.pageY + "px";
-                  toolTip.style.left = e.pageX + "px";
+                  toolTip.current.style.top = e.pageY + "px";
+                  toolTip.current.style.left = e.pageX + "px";
                   toolTip.current.classList.add("active");
                 }}
                 onMouseOut={(e, index) => {

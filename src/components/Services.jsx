@@ -2,7 +2,7 @@ import React from 'react'
 import { Fade } from 'react-reveal'
 import Assetimage from '../images/assetgraphic.webp'
 import Deximage from '../images/dexgraphic.png'
-import Nftimage from '../images/nftgraphic.png'
+import Nftimage from '../images/nftmarketgraphic.png'
 import Layer1image from '../images/layer1.png'
 const Services = () => {
   return (
@@ -46,7 +46,7 @@ const Services = () => {
     <div style={{maxWidth: "1200px",  margin: "auto"}} className="flex flex-wrap-reverse">
         <Fade right cascade>
         <div className="lg:w-1/2 pr-4 pl-4 md:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4">
-            <img className='py-8 md:pt-20' src={Nftimage} style={{width: '100%'}}  alt="Mission Image"/>
+            <img className='py-8 md:pt-20' src={Nftimage} style={{width: '90%'}}  alt="Mission Image"/>
         </div>
 
         <div className="lg:w-1/2 pr-4 pl-4 md:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4">

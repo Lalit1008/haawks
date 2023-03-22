@@ -525,6 +525,8 @@ height: 8vh;
   }
   .top-bar-left {
       flex-wrap: wrap;
+      display:block;
+      margin:auto;
   }
 
 
@@ -566,6 +568,7 @@ height: 8vh;
   }
   .top-bar-contact {
       margin-right: 0px;
+      /* display: none; */
   }
   .top-bar-left {
       flex-wrap: wrap;

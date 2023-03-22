@@ -553,7 +553,7 @@ height: 8vh;
   .top-bar-left div:nth-child(2),
   .top-bar-right {
       display: block;
-      margin: auto;
+      /* margin: auto; */
       margin-bottom: 4px;
   }
   .top-bar-right {
@@ -577,7 +577,7 @@ height: 8vh;
   }
   .top-bar-right {
       display: block;
-      margin: auto;
+      /* margin: auto; */
   }
 }
 

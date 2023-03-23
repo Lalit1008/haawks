@@ -67,9 +67,7 @@
     cursor: pointer;
 }
 
-.accordion a:hover::after {
-    /* border: 1px solid #ff5353; */
-}
+
 
 .accordion a.active {
     color: #002060;

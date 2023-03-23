@@ -1,6 +1,6 @@
 // import "./styles.css"
 import React, { useCallback, useState } from "react"
-import { ResponsiveContainer ,PieChart, Pie, Sector } from "recharts"
+import { ResponsiveContainer ,PieChart, Pie, Cell, Sector } from "recharts"
 
 const data = [
   { name: "Seed", value: 2 },
@@ -13,43 +13,43 @@ const data = [
   { name: "Liquidity", value: 5 },
   { name: "Advisory", value: 5 },
 ]
-
-// const dataMock = [
-//     { title: "Seed 2%", value: 2.0, color: "#3260ed", name: "Seed" },
-//     { title: "Private  6%", value: 6.0, color: "#8ca8ff", name: "Private" },
-//     {
-//       title: "Public Sale 8%",
-//       value: 8.0,
-//       color: "#7af0d1",
-//       name: "Public Sale",
-//     },
-//     {
-//       title: "Marketing 6%",
-//       value: 6.0,
-//       color: "#3290ed",
-//       name: "Marketing",
-//     },
-//     { title: "Team 18%", value: 18.0, color: "#7c7af0", name: "Team" },
-//     {
-//       title: "Strategic Funding 15% ",
-//       value: 15.0,
-//       color: "#32e4ed",
-//       name: "Strategic Funding",
-//     },
-//     {
-//       title: "Ecosystem Rewards 35% ",
-//       value: 35.0,
-//       color: "#32bbed",
-//       name: "Ecosystem Rewards",
-//     },
-//     {
-//       title: "Liquidity 5%",
-//       value: 5.0,
-//       color: "#4b00e2",
-//       name: "Liquidity",
-//     },
-//     { title: "Advisory 5%", value: 5.0, color: "#4bffe2", name: "Advisory" },
-//   ];
+const colors=['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#0088FE', '#00C49F', '#FFBB28', '#FF8042','#0088FE' ]
+const dataMock = [
+    { title: "Seed 2%", value: 2.0, color: "#3260ed", name: "Seed" },
+    { title: "Private  6%", value: 6.0, color: "#8ca8ff", name: "Private" },
+    {
+      title: "Public Sale 8%",
+      value: 8.0,
+      color: "#7af0d1",
+      name: "Public Sale",
+    },
+    {
+      title: "Marketing 6%",
+      value: 6.0,
+      color: "#3290ed",
+      name: "Marketing",
+    },
+    { title: "Team 18%", value: 18.0, color: "#7c7af0", name: "Team" },
+    {
+      title: "Strategic Funding 15% ",
+      value: 15.0,
+      color: "#32e4ed",
+      name: "Strategic Funding",
+    },
+    {
+      title: "Ecosystem Rewards 35% ",
+      value: 35.0,
+      color: "#32bbed",
+      name: "Ecosystem Rewards",
+    },
+    {
+      title: "Liquidity 5%",
+      value: 5.0,
+      color: "#4b00e2",
+      name: "Liquidity",
+    },
+    { title: "Advisory 5%", value: 5.0, color: "#4bffe2", name: "Advisory" },
+  ];
 
 
 const renderActiveShape = props => {
@@ -150,6 +150,9 @@ export default function Tokenpiechart() {
         dataKey="value"
         onMouseEnter={onPieEnter}
       />
+      {data.map((entry, index) => (
+              <Cell key={`cell-${index}`} fill={colors[index % colors.length]} />
+            ))}
     </PieChart>
     </ResponsiveContainer></div>
     

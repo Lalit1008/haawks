@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Carousel from 'react-multi-carousel';
 import { Fade } from 'react-reveal';
 import 'react-multi-carousel/lib/styles.css';
@@ -14,7 +14,35 @@ import G36 from '../images/Group 36.svg'
 import G45 from '../images/Group 45.svg'
 import G37 from '../images/Group 37.svg'
 import G47 from '../images/Group 47.svg'
+import G54 from '../images/Group 54.svg'
+import G53 from '../images/Group 53.svg'
+import G52 from '../images/Group 52.svg'
+import G51 from '../images/Group 51.svg'
+import G50 from '../images/Group 50.svg'
+import G49 from '../images/Group 49.svg'
+
 const Roadmapcarousel = () => {
+
+
+    const [screenSize, getDimension] = useState({
+      dynamicWidth: window.innerWidth,
+      dynamicHeight: window.innerHeight
+    });
+    const setDimension = () => {
+      getDimension({
+        dynamicWidth: window.innerWidth,
+        dynamicHeight: window.innerHeight
+      })
+    }
+    
+    useEffect(() => {
+      window.addEventListener('resize', setDimension);
+      
+      return(() => {
+          window.removeEventListener('resize', setDimension);
+      })
+    }, [screenSize])
+     
 
     const responsive = {
         superLargeDesktop: {
@@ -51,17 +79,17 @@ const Roadmapcarousel = () => {
     <div>
         <Carousel style={{color:"red"}} responsive={responsive}>
             <div><img src={G40}  style={{position:"relative",top:"-1px"}} alt="" /></div>
-            <div><img src={G42} style={{position:"relative",top:"5px"}} alt="" /></div>
+            <div><img src={(screenSize.dynamicWidth>=465)?G42:G49} style={{position:"relative",top:"5px"}} alt="" /></div>
             <div><img src={G39} alt="" /></div>
-            <div><img src={G41} alt="" /></div>
+            <div><img src={screenSize.dynamicWidth>=465?G41:G50} alt="" /></div>
             <div><img src={G35} alt="" /></div>
-            <div><img src={G43} alt="" /></div>
+            <div><img src={screenSize.dynamicWidth>=465?G43:G51} alt="" /></div>
             <div><img src={G38} alt="" /></div>
-            <div><img src={G44} alt="" /></div>
+            <div><img src={screenSize.dynamicWidth>=465?G44:G52} alt="" /></div>
             <div><img src={G36} alt="" /></div>
-            <div><img src={G45} alt="" /></div>
+            <div><img src={screenSize.dynamicWidth>=465?G45:G53} alt="" /></div>
             <div><img src={G37} alt="" /></div>
-            <div><img src={G47} alt="" /></div>
+            <div><img src={screenSize.dynamicWidth>=465?G47:G54} alt="" /></div>
         </Carousel>
     </div>
     </Fade>

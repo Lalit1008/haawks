@@ -37,8 +37,8 @@ function App() {
       <Assetmanagement /> */}
       {/* <Ctatext /> */}
       <Newsletter />
-      {/* <Tokenomics /> */}
-      <Tokenpiechart />
+      <Tokenomics />
+      {/* <Tokenpiechart /> */}
       <Roadmapcarousel />
       {/* <Slideroadmap /> */}
       

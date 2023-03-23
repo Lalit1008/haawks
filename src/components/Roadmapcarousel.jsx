@@ -20,7 +20,12 @@ import G52 from '../images/Group 52.svg'
 import G51 from '../images/Group 51.svg'
 import G50 from '../images/Group 50.svg'
 import G49 from '../images/Group 49.svg'
-
+import G33 from '../images/Group 33.svg'
+import G23 from '../images/Group 23.svg'
+import G22 from '../images/Group 22.svg'
+import G21 from '../images/Group 21.svg'
+import G20 from '../images/Group 20.svg'
+import G19 from '../images/Group 19.svg'
 const Roadmapcarousel = () => {
 
 
@@ -78,17 +83,17 @@ const Roadmapcarousel = () => {
             </div>
     <div>
         <Carousel style={{color:"red"}} responsive={responsive}>
-            <div><img src={G40}  style={{position:"relative",top:"-1px"}} alt="" /></div>
+            <div><img src={screenSize.dynamicWidth>=465?G40:G33}  style={{position:"relative",top:"-1px"}} alt="" /></div>
             <div><img src={(screenSize.dynamicWidth>=465)?G42:G49} style={{position:"relative",top:"5px"}} alt="" /></div>
-            <div><img src={G39} alt="" /></div>
+            <div><img src={screenSize.dynamicWidth>=465?G39:G19} alt="" /></div>
             <div><img src={screenSize.dynamicWidth>=465?G41:G50} alt="" /></div>
-            <div><img src={G35} alt="" /></div>
+            <div><img src={screenSize.dynamicWidth>=465?G35:G20} alt="" /></div>
             <div><img src={screenSize.dynamicWidth>=465?G43:G51} alt="" /></div>
-            <div><img src={G38} alt="" /></div>
+            <div><img src={screenSize.dynamicWidth>=465?G38:G22} alt="" /></div>
             <div><img src={screenSize.dynamicWidth>=465?G44:G52} alt="" /></div>
-            <div><img src={G36} alt="" /></div>
+            <div><img src={screenSize.dynamicWidth>=465?G36:G21} alt="" /></div>
             <div><img src={screenSize.dynamicWidth>=465?G45:G53} alt="" /></div>
-            <div><img src={G37} alt="" /></div>
+            <div><img src={screenSize.dynamicWidth>=465?G37:G23} alt="" /></div>
             <div><img src={screenSize.dynamicWidth>=465?G47:G54} alt="" /></div>
         </Carousel>
     </div>

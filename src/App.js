@@ -20,6 +20,7 @@ import Horizroadmap from './components/Horizroadmap';
 import Services from './components/Services';
 import Slideroadmap from './components/Slideroadmap';
 import Roadmapcarousel from './components/Roadmapcarousel';
+import Tokenpiechart from './components/Tokenpiechart';
 ;
 //import Horizontaltimeline from './components/Horizontaltimeline';
 
@@ -36,7 +37,8 @@ function App() {
       <Assetmanagement /> */}
       {/* <Ctatext /> */}
       <Newsletter />
-      <Tokenomics />
+      {/* <Tokenomics /> */}
+      <Tokenpiechart />
       <Roadmapcarousel />
       {/* <Slideroadmap /> */}
       

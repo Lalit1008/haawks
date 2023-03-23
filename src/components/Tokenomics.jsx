@@ -91,8 +91,8 @@ const Tokenomics = () => {
                     dataMock[index].title + " " + dataMock[index].value + " %";
                   e.target.style.opacity = "0.8";
                   e.target.style.cursor = "pointer";
-                  toolTip.current.style.top = e.pageY + "px";
-                  toolTip.current.style.left = e.pageX + "px";
+                  // toolTip.current.style.top = e.pageY + "px";
+                  // toolTip.current.style.left = e.pageX + "px";
                   toolTip.current.classList.add("active");
                 }}
                 onMouseOut={(e, index) => {

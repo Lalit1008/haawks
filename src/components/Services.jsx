@@ -19,7 +19,7 @@ const Services = () => {
     <br/>
     <div style={{maxWidth: "1200px",  margin: "auto"}} className="flex flex-wrap">
     <Fade left cascade>
-        <div className="lg:w-1/2 pr-4 pl-4 md:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4">
+        <div id='dex' className="lg:w-1/2 pr-4 pl-4 md:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4">
             <h2 className='smallHeading text-4xl text-[#4CC9F0] pb-10 font-bold'>DEX</h2>
             <p className='smallHeading text-white text-xl font-bold pb-10'>Details. </p>
             <ul>
@@ -49,7 +49,7 @@ const Services = () => {
             <img className='py-8 md:pt-20' src={Nftimage} style={{width: '90%'}}  alt="Mission Image"/>
         </div>
 
-        <div className="lg:w-1/2 pr-4 pl-4 md:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4">
+        <div id='nftmarketplace' className="lg:w-1/2 pr-4 pl-4 md:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4">
         <h2 className='smallHeading text-4xl text-[#4CC9F0] pb-10 font-bold'>NFT Marketplace</h2>
         <p className='smallHeading text-white text-xl font-bold pb-10'>Details</p>
             <ul>
@@ -97,7 +97,7 @@ const Services = () => {
     <br/>    
     <div style={{maxWidth: "1200px",  margin: "auto"}} className="flex flex-wrap-reverse">
         <Fade right cascade>
-        <div className="lg:w-1/2 pr-4 pl-4 md:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4">
+        <div id='layer1' className="lg:w-1/2 pr-4 pl-4 md:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4">
             <img className='py-8 md:pt-20' src={Layer1image} style={{width: '100%'}}  alt="Mission Image"/>
         </div>
 
@@ -120,8 +120,8 @@ const Services = () => {
         </div> 
         </Fade>
     </div>
-    <div className='flex justify-center'> <a className="my-4 md:my-16 mx-8 px-14 md:px-24 py-3 bg-gradient-to-r from-[#F72585] to-[#7209B7] hover:from-[#7209B7] hover:to-[#F72585] text-xl text-white font-semibold drop-shadow-lg rounded-full"
-          href="#">Read More</a></div>
+    <div className='flex justify-center'> <a target='_blank' className="my-4 md:my-16 mx-8 px-14 md:px-24 py-3 bg-gradient-to-r from-[#F72585] to-[#7209B7] hover:from-[#7209B7] hover:to-[#F72585] text-xl text-white font-semibold drop-shadow-lg rounded-full"
+          href="https://drive.google.com/file/d/1w--URcjU0k8V7FmX_CFA-MunW1Q8mkRu/view?usp=sharing">Read More</a></div>
 </section></div></div>
   )
 }

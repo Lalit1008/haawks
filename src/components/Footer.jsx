@@ -5,6 +5,7 @@ import { AiOutlineSkype } from "react-icons/ai";
 import { FiFigma } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 import Fade from "react-reveal/Fade";
+import Privacypolicy from './Privacypolicy';
 
 function Footer() {
   return (
@@ -121,7 +122,7 @@ function Footer() {
           <div className="md:flex justify-between text-white text-xs md:text-base flex-col lg:flex-row">
             <p>About Us</p>
             <p>Contact</p>
-            <p>Privacy Policy</p>
+            <Privacypolicy />
             <p>Sitemap</p>
             <p>Terms of Use</p>
           </div>

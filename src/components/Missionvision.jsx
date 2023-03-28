@@ -5,7 +5,7 @@ import Vision from '../images/visiongraphic.png'
 
 const Missionvision = () => {
   return (
-    <div className='p-10 md:pt-24 md:px-24 sm:p-10  bg-gradient-to-b from-[#000120] to-[#220056] '>
+    <div id='about' className='p-10 md:pt-24 md:px-24 sm:p-10  bg-gradient-to-b from-[#000120] to-[#220056] '>
     <section className="about-us container mx-auto">
     <h2 className='"bigHeading pt-4 font-bold xl:text-5xl lg:text-4xl md:text-4xl text-3xl lg:leading-[2.5rem] 2xl:leading-[3.7rem]"' style={{display: "flex", justifyContent: "center"}}>
         <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#4361EE] to-[#4CC9F0]">
@@ -55,8 +55,8 @@ const Missionvision = () => {
             href="#">Read More</a>  */}
         </div> 
     </div>
-   <div className='flex justify-center'> <a className="my-4 md:my-16 mx-8 px-14 md:px-24 py-3 bg-gradient-to-r from-[#F72585] to-[#7209B7] hover:from-[#7209B7] hover:to-[#F72585] text-xl text-white font-semibold drop-shadow-lg rounded-full"
-          href="#">Read More</a></div>
+   <div className='flex justify-center'> <a target='_blank' className="my-4 md:my-16 mx-8 px-14 md:px-24 py-3 bg-gradient-to-r from-[#F72585] to-[#7209B7] hover:from-[#7209B7] hover:to-[#F72585] text-xl text-white font-semibold drop-shadow-lg rounded-full"
+          href="https://drive.google.com/file/d/1w--URcjU0k8V7FmX_CFA-MunW1Q8mkRu/view?usp=sharing">Read More</a></div>
 </section></div>
   )
 }

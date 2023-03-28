@@ -67,7 +67,7 @@ const Roadmapcarousel = () => {
           items: 1
         }
       };
-  return (<div className='bg-gradient-to-t from-[#000120] to-[#220056] md:py-24  px-14 md:px-28 sm:py-12 sm:overflow-x-hidden'>
+  return (<div id='roadmap' className='bg-gradient-to-t from-[#000120] to-[#220056] md:py-24  px-14 md:px-28 sm:py-12 sm:overflow-x-hidden'>
     <div className='p-10'>
       {/* <div className="ml-10 w-10 h-1 from-[#7361F2] to-[#BD4FF1] bg-gradient-to-r "></div> */}
       <h1 className="bigHeading text-center font-semibold xl:text-5xl lg:text-4xl md:text-4xl text-3xl text-white lg:leading-[2.5rem] 2xl:leading-[3.7rem]">

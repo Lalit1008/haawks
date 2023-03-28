@@ -48,5 +48,3 @@ const Roadmap = () => {
 </div>
   )
 }
-
-export default Roadmap

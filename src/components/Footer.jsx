@@ -2,12 +2,10 @@ import React from 'react'
 import { TbBrandTelegram } from "react-icons/tb";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
-import Fade from "react-reveal/Fade";
 
 function Footer() {
   return (
     <div className="bg-gradient-to-b from-[#000120] to-[#220056]  lg:px-28 pt-14 px-10 pb-10">
-      <Fade bottom cascade>
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-20">
           <div>
             <h1 className="text-[#4CC9F0] font-semibold lg:text-2xl">HAAWKS.</h1>
@@ -128,7 +126,6 @@ function Footer() {
             © 2000-2021, All Rights Reserved
           </div>
         </div>
-      </Fade>
     </div>
   );
 }

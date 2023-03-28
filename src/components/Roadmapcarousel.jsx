@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import Carousel from 'react-multi-carousel';
-import { Fade } from 'react-reveal';
 import 'react-multi-carousel/lib/styles.css';
 import G40 from '../images/Group 40.svg'
 import G42 from '../images/Group 42.svg'
@@ -69,7 +68,6 @@ const Roadmapcarousel = () => {
         }
       };
   return (<div className='bg-gradient-to-t from-[#000120] to-[#220056] md:py-24  px-14 md:px-28 sm:py-12 sm:overflow-x-hidden'>
-    <Fade bottom cascade>
     <div className='p-10'>
       {/* <div className="ml-10 w-10 h-1 from-[#7361F2] to-[#BD4FF1] bg-gradient-to-r "></div> */}
       <h1 className="bigHeading text-center font-semibold xl:text-5xl lg:text-4xl md:text-4xl text-3xl text-white lg:leading-[2.5rem] 2xl:leading-[3.7rem]">
@@ -97,7 +95,6 @@ const Roadmapcarousel = () => {
             <div><img src={screenSize.dynamicWidth>=465?G47:G54} alt="" /></div>
         </Carousel>
     </div>
-    </Fade>
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import { TbBrandTelegram } from "react-icons/tb";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
-
+import Privacypolicy from './Privacypolicy';
 function Footer() {
   return (
     <div className="bg-gradient-to-b from-[#000120] to-[#220056]  lg:px-28 pt-14 px-10 pb-10">
@@ -118,7 +118,7 @@ function Footer() {
           <div className="md:flex justify-between text-white text-xs md:text-base flex-col lg:flex-row">
             <p><a href="#about">About Us</a></p>
             <p><a href="mailto: contact@haawks.io">Contact</a></p>
-            <p>Privacy Policy</p>
+            <Privacypolicy />
             <p><a href="#roadmap">Roadmap</a></p>
             <p>Terms of Use</p>
           </div>

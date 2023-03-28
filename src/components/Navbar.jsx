@@ -14,22 +14,22 @@ export default function Navbar() {
             <div className="top-bar-left">
                 <div className="top-bar-email">
                     <i className=" fa-solid fa-envelope"></i>
-                    <a className=" " href="mailto: Info@metablocktechnologies.io" target="_blank">info@haawks.io</a>
+                    <a className=" " href="mailto: contact@haawks.io" target="_blank">contact@haawks.io</a>
                 </div>
-                <div className="top-bar-contact">
+                {/* <div className="top-bar-contact">
                     <i className="hidden sm:inline fa-sharp fa-solid fa-phone"></i>
                     <a className='hidden sm:inline ' href="tel:+919358593003" target="_blank">+91 987 654 3210</a>
-                </div>
+                </div> */}
             </div>
             <div className="top-bar-right sm:flex sm:justify-center sm:mx-0">
-                <a href="https://www.facebook.com/MetaBlockTechnologies" className='hidden sm:inline'  target="_blank"><i className="fa-brands fa-facebook"></i></a>
-                <a href="https://instagram.com/metablocktechnologies1" className='hidden sm:inline'  target="_blank"><i className="fa-brands fa-instagram"></i></a>
-                <a href="https://wa.me/+919358593003" target="_blank"><i className="fa-brands fa-telegram"></i></a>
-                <a href="https://www.linkedin.com/company/metablock-technologies/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
-                <a href="https://twitter.com/Metablocktech" target="_blank"><i className="fa-brands fa-twitter"></i></a>
-                <a href="https://twitter.com/Metablocktech" className='hidden sm:inline'  target="_blank"><i class="fa-brands fa-discord"></i></a>
-                <a href="https://twitter.com/Metablocktech" className='hidden sm:inline'  target="_blank"><i class="fa-brands fa-medium"></i></a>
-                <a href="https://twitter.com/Metablocktech" className='hidden sm:inline'  target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                {/* <a href="https://www.facebook.com/MetaBlockTechnologies" className='hidden sm:inline'  target="_blank"><i className="fa-brands fa-facebook"></i></a> */}
+                {/* <a href="https://instagram.com/metablocktechnologies1" className='hidden sm:inline'  target="_blank"><i className="fa-brands fa-instagram"></i></a> */}
+                <a href="https://t.me/haawkschain" target="_blank"><i className="fa-brands fa-telegram"></i></a>
+                <a href="https://www.linkedin.com/company/haawkschain/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com/Haawks_chain" target="_blank"><i className="fa-brands fa-twitter"></i></a>
+                {/* <a href="https://twitter.com/Metablocktech" className='hidden sm:inline'  target="_blank"><i class="fa-brands fa-discord"></i></a> */}
+                {/* <a href="https://twitter.com/Metablocktech" className='hidden sm:inline'  target="_blank"><i class="fa-brands fa-medium"></i></a> */}
+                {/* <a href="https://twitter.com/Metablocktech" className='hidden sm:inline'  target="_blank"><i class="fa-brands fa-youtube"></i></a> */}
                 
 
 
@@ -39,11 +39,11 @@ export default function Navbar() {
         <div className="stickbar navbar  bg-transparent">
             <img className="ml-4 sm:ml-8 h-16 w-16" src={Logo} alt="" />
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">DEX</a></li>
-                <li><a href="#">NFT Marketplace</a></li>
-                <li><a href="#">Layer 1</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#dex">DEX</a></li>
+                <li><a href="#nftmarketplace">NFT Marketplace</a></li>
+                <li><a href="#layer1">Layer 1</a></li>
                 <li><a href="#">Media</a></li>
                 {/* <li><a href="#">Exchange<i className="fa-solid fa-caret-down"></i></a>
                     <ul className="secondul">

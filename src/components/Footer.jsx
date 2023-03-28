@@ -1,16 +1,11 @@
 import React from 'react'
-import { GrFacebookOption } from "react-icons/gr";
-import { FiYoutube } from "react-icons/fi";
-import { AiOutlineSkype } from "react-icons/ai";
-import { FiFigma } from "react-icons/fi";
-import { FaWhatsapp } from "react-icons/fa";
-import Fade from "react-reveal/Fade";
+import { TbBrandTelegram } from "react-icons/tb";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FiTwitter } from "react-icons/fi";
 import Privacypolicy from './Privacypolicy';
-
 function Footer() {
   return (
     <div className="bg-gradient-to-b from-[#000120] to-[#220056]  lg:px-28 pt-14 px-10 pb-10">
-      <Fade bottom cascade>
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-20">
           <div>
             <h1 className="text-[#4CC9F0] font-semibold lg:text-2xl">HAAWKS.</h1>
@@ -18,7 +13,7 @@ function Footer() {
             We aim to establish a secure space that instills confidence in investing in digital assets. Our platform provides essential resources to users, regardless of their level of expertise in the crypto investment realm
             </p>
             <div className="grid lg:grid-cols-1 xl:grid-cols-2 grid-cols-1 md:grid-cols-1 pt-9">
-              <div className="flex gap-2">
+              {/* <div className="flex gap-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-8 w-8 text-white bg-[#3A0CA3] rounded-full leading-4 p-2"
@@ -37,7 +32,7 @@ function Footer() {
                   <p className="text-[#4CC9F0] text-sm">Have a question?</p>
                   <h3 className="text-white">312-417-2366</h3>
                 </div>
-              </div>
+              </div> */}
 
               <div className="flex gap-2 text-white md:pt-4 pt-4 xl:pt-0">
                 <svg
@@ -56,7 +51,7 @@ function Footer() {
                 </svg>
                 <div>
                   <p className="text-[#4CC9F0] text-sm">Contact us at</p>
-                  <h3>brandname@domain.com</h3>
+                  <h3>contact@haawks.io</h3>
                 </div>
               </div>
             </div>
@@ -87,32 +82,33 @@ function Footer() {
             </div>
 
             <div className="flex justify-end pt-5 gap-4 socials">
-              <div className="relative overflow-hidden block footer-div cursor-pointer">
+              {/* <div className="relative overflow-hidden block footer-div cursor-pointer">
                 <span className="block">
                   <GrFacebookOption className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
                 </span>
+              </div> */}
+              <div className="relative overflow-hidden block footer-div cursor-pointer">
+                <span className="block"><a target="_blank" href="https://www.linkedin.com/company/haawkschain">
+                  <FaLinkedinIn className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
+                </a></span>
               </div>
               <div className="relative overflow-hidden block footer-div cursor-pointer">
                 <span className="block">
-                  <FiYoutube className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
-                </span>
-              </div>
-              <div className="relative overflow-hidden block footer-div cursor-pointer">
-                <span className="block">
-                  <AiOutlineSkype className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
-                </span>
+                  <a target="_blank" href="https://t.me/haawkschain">
+                  <TbBrandTelegram  className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
+                </a></span>
                 
               </div>
               <div className="relative overflow-hidden block footer-div cursor-pointer">
-                <span className="block">
-                  <FiFigma className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
-                </span>
+                <span className="block"><a target="_blank" href="https://twitter.com/Haawks_chain">
+                  <FiTwitter className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
+                </a></span>
               </div>
-              <div className="relative overflow-hidden block footer-div cursor-pointer">
+              {/* <div className="relative overflow-hidden block footer-div cursor-pointer">
                 <span className="block">
                   <FaWhatsapp className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
                 </span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -120,17 +116,16 @@ function Footer() {
         {/* Lower footer */}
         <div className="grid lg:grid-cols-2 grid-cols-1 pt-16 md:grid-cols-1">
           <div className="md:flex justify-between text-white text-xs md:text-base flex-col lg:flex-row">
-            <p>About Us</p>
-            <p>Contact</p>
+            <p><a href="#about">About Us</a></p>
+            <p><a href="mailto: contact@haawks.io">Contact</a></p>
             <Privacypolicy />
-            <p>Sitemap</p>
+            <p><a href="#roadmap">Roadmap</a></p>
             <p>Terms of Use</p>
           </div>
           <div className="text-white lg:justify-end justify-start pt-4 flex md:justify-start md:pt-4 text-xs md:text-base lg:pt-0">
             © 2000-2021, All Rights Reserved
           </div>
         </div>
-      </Fade>
     </div>
   );
 }

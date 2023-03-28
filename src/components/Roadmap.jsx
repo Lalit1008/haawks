@@ -2,7 +2,7 @@ import React from 'react'
 import { Fade } from 'react-reveal'
 const Roadmap = () => {
   return ( 
-    <div className='bg-gradient-to-b from-[#000120] to-[#220056] p-10' id="roadmap">
+    <div className='bg-gradient-to-b from-[#000120] to-[#220056] p-10'>
       <Fade right cascade>
       <div className='p-10'>
       {/* <div className="ml-10 w-10 h-1 from-[#7361F2] to-[#BD4FF1] bg-gradient-to-r "></div> */}
@@ -48,5 +48,3 @@ const Roadmap = () => {
 </div>
   )
 }
-
-export default Roadmap

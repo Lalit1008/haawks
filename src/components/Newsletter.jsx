@@ -1,10 +1,9 @@
 import React from 'react'
-import {Fade} from 'react-reveal'
 import PersonIcon from '@mui/icons-material/Person';
 const Newsletter = () => {
   return (
     <div className="bg-[#12122d] p-4">
-        <Fade bottom cascade>
+        
       <section className="">
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div className="mx-auto max-w-screen-md sm:text-center">
@@ -42,7 +41,7 @@ const Newsletter = () => {
           </form>
       </div>
   </div>
-</section></Fade>
+</section>
   </div>
   )
 }
